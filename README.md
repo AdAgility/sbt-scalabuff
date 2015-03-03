@@ -4,9 +4,11 @@
 
 ## Usage
 
-Adding the plugin:
+Adding the plugin in `plugins.sbt`:
 
-    addSbtPlugin("com.github.sbt" %% "sbt-scalabuff" % "0.2")
+    resolvers += "iDecide 3rd party Releases" at "https://nexus.flexis.ru/content/repositories/thirdparty"
+
+    addSbtPlugin("com.github.sbt" %% "sbt-scalabuff" % "0.4.0_1.4.0")    
 
 Enable the plugin in your build:
 
